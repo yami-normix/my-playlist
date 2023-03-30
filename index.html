@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Playlist</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+
+    <main class="container">
+        <h1 class="title">Yami's Playlist</h1>
+        <div class="playlist-container">
+            <div class="cover">
+                <img id="cover-image" src="" alt="">
+                <audio src="" id="audio"></audio>
+            </div>
+
+            <div class="progress-container">
+                <div class="progress-bar"></div>
+            </div>
+
+            <div class="control-buttons">
+                <button class="back-button"> <img src="./icons/previous (1).png" alt=""> </button>
+                <button class="play-button"> <img id="image-pause" src="./icons/play-button-arrowhead.png" alt=""> </button>
+                <button class="next-button"> <img src="./icons/next-button.png" alt=""> </button>
+            </div>
+
+            <div class="songs-container">
+                <ul class="songs" id="songs"> </ul>
+            </div>
+        </div>
+
+        <div class="form-data">
+        </div>
+    </main>
+    <script src="./src/main.js"></script>
+</body>
+</html>

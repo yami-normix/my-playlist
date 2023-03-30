@@ -216,9 +216,10 @@ $RECYCLE.BIN/
 *.lnk
 
 # images
-cover
+.cover
+
 # media
-media
+.media
 
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,macos,linux,node
